@@ -1,0 +1,7 @@
+objectclass ( 2.16.840.1.113718.1.203.7.1
+       NAME 'groupaddon'
+       DESC 'extends group with mail etc.'
+       SUP top AUXILIARY
+       MAY ( mail $ displayName $ sn $ initials $ manager )
+       X-ORIGIN ('user defined') )
+

@@ -1,0 +1,2 @@
+attributetype ( 1.1.3.5.1 NAME 'uuid' DESC 'UUID' EQUALITY caseIgnoreMatch SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+objectclass ( 1.1.3.7.1 NAME 'uuidaddon' DESC 'class to add UUID attribute' SUP top AUXILIARY MAY ( uuid ) )
